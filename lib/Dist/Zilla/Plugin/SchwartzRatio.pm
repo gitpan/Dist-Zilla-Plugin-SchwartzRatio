@@ -3,7 +3,7 @@ BEGIN {
   $Dist::Zilla::Plugin::SchwartzRatio::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $Dist::Zilla::Plugin::SchwartzRatio::VERSION = '0.1.0';
+  $Dist::Zilla::Plugin::SchwartzRatio::VERSION = '0.2.0';
 }
 # ABSTRACT: display the Schwartz ratio of the distribution upon release
 
@@ -26,7 +26,7 @@ sub after_release {
     # I'm going to hell for that...
 
     my $page = join "", LWP::Simple::get( 'http://search.cpan.org/dist/' .
-        $self->zilla->dist_name );
+        $self->zilla->name );
 
     my @releases;
 
@@ -54,7 +54,7 @@ Dist::Zilla::Plugin::SchwartzRatio - display the Schwartz ratio of the distribut
 
 =head1 VERSION
 
-version 0.1.0
+version 0.2.0
 
 =head1 SYNOPSIS
 

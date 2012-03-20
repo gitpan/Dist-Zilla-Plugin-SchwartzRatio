@@ -48,7 +48,7 @@
    "provides" : {
       "Dist::Zilla::Plugin::SchwartzRatio" : {
          "file" : "lib/Dist/Zilla/Plugin/SchwartzRatio.pm",
-         "version" : "v0.1.0"
+         "version" : "v0.2.0"
       }
    },
    "release_status" : "stable",
@@ -64,7 +64,7 @@
          "web" : "https://github.com/yanick/Dist-Zilla-Plugin-SchwartzRatio"
       }
    },
-   "version" : "0.1.0",
+   "version" : "0.2.0",
    "x_authority" : "cpan:YANICK"
 }
 

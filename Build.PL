@@ -23,7 +23,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@babyl.dyndns.org>"
   ],
   "dist_name" => "Dist-Zilla-Plugin-SchwartzRatio",
-  "dist_version" => "0.1.0",
+  "dist_version" => "0.2.0",
   "license" => "perl",
   "module_name" => "Dist::Zilla::Plugin::SchwartzRatio",
   "recommends" => {},
